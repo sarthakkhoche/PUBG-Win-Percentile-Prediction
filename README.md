@@ -31,3 +31,5 @@
     - numGroups - Number of groups we have data for in the match.
     - maxPlace - Worst placement we have data for in the match. This may not match with numGroups, as sometimes the data skips over placements.
     - winPlacePerc - The target of prediction. This is a percentile winning placement, where 1 corresponds to 1st place, and 0 corresponds to last place in the match. It is calculated off of maxPlace, not numGroups, so it is possible to have missing chunks in a match.
+
+Drive link for training data and pickle files: https://drive.google.com/open?id=12zBph8xoUDzvMgZC125oOTP3a5NGM3CK
